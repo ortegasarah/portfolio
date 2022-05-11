@@ -1,13 +1,19 @@
 import React from 'react'
+import { Container, H2, NumberList } from './styles'
+import Img1 from "../../img/canele-01.png"
+import Img2 from "../../img/animecafe-02.png"
+import Img3 from "../../img/fluf.png"
+import Img4 from "../../img/bookclub.png"
+import Img5 from "../../img/187.png"
 
 const Work= () => {
     return (
         <div>
-            <section className="hovering">
+            <Container>
                 <ul>
                     <li className="hover-item">
-                        <h2>
-                            <span className='number-list'>01 </span>
+                        <H2>
+                            <NumberList>01 </NumberList>
 
                             <a href='https://caneledujp.netlify.app/' target='_blank' rel="noreferrer">
                                 <span> Canelé du Japon </span>
@@ -15,57 +21,57 @@ const Work= () => {
                                 <img src={Img1} alt='' width={400} />
                             </a>
 
-                        </h2>
+                        </H2>
                     </li>
                     <li>
 
-                        <h2>
-                            <span className='number-list'>02 </span>
+                        <H2>
+                            <NumberList>02 </NumberList>
 
                             <a href='https://animecafe.herokuapp.com/' target='_blank' rel="noreferrer">
                                 <span>Animecafe </span>
                                 <span className='description'>Handlebars</span>
                                 <img src={Img2} alt='' width={400} />
                             </a>
-                        </h2>
+                        </H2>
 
                     </li>
                     <li>
-                        <h2>
-                            <span className='number-list'>03 </span>
+                        <H2>
+                            <NumberList>03 </NumberList>
                             <a href='https://ortegasarah.github.io/GameLostFluF/' target='_blank' rel="noreferrer">
-                                <span>Lost FluF </span>
-                                <span className='description'>Game using Canvas</span>
+                                <span> Lost FluF </span>
+                                <span className='description'> Game using Canvas</span>
                                 <img src={Img3} alt='' width={800} />
                             </a>
-                        </h2>
+                        </H2>
                     </li>
 
                     <li>
-                        <h2>
-                            <span className='number-list'>04 </span>
+                        <H2>
+                            <NumberList>04 </NumberList>
 
                             <a href='https://ortegasarah.github.io/GameLostFluF/' target='_blank' rel="noreferrer">
                                 <span>187whales </span>
                                 <span className='description'>Solidity NFT</span>
                                 <img src={Img5} alt='' width={400} />
                             </a>
-                        </h2>
+                        </H2>
                     </li>
 
                     <li>
-                        <h2>
-                            <span className='number-list'>05 </span>
+                        <H2>
+                            <NumberList>05 </NumberList>
                             <a href='https://abookclub.netlify.app/' target='_blank' rel="noreferrer">
                                 <span>The BookClub </span>
                                 <span className='description'> with React.js, Rest.API</span>
                                 <img src={Img4} alt='' width={800} />
                             </a>
-                        </h2>
+                        </H2>
                     </li>
 
                 </ul>
-            </section>
+            </Container>
         </div>
     )
 }

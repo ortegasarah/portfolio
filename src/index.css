@@ -69,20 +69,7 @@ ul li {
   position: relative;
 }
 
-/* 
-li {
-  border-top: 1px solid #464b5086;
 
-} */
-
-.circle {
-  background-color: #505d33;
-  height: 0;
-  width: 2%;
-  padding-bottom: 2%;
-  border-radius: 50%;
-  margin: 0 1%;
-}
 
 h1 {
   font-family: 'C4v4-Regular';
@@ -97,30 +84,28 @@ h1 {
   /* text-transform: uppercase; */
 }
 
-h2 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  /* line-height: 1.2; */
-  transition: color 0.5s;
-  font-size: 2.7em;
-  text-decoration: none;
-  justify-content: center;
-  margin: 0.5em;
-}
+  /* h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: color 0.5s;
+    font-size: 2.7em;
+    text-decoration: none;
+    justify-content: center;
+    margin: 0.5em;
+  }
 
-h2 a {
-  text-decoration: none;
-  color: #24292E;
-}
+  h2 a {
+    text-decoration: none;
+    color: #24292E;
+  } */
 
-.hover-item-show {
+/* .hover-item-show {
   position: absolute;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s;
   z-index: 100;
-  /* top: 0; */
   right: 0;
 }
 
@@ -129,7 +114,7 @@ h2 a {
   opacity: 1;
   visibility: inherit;
   transition: opacity 0.5s;
-}
+} */
 
 /* img {
   width: 100vw;
@@ -163,19 +148,19 @@ section {
 }
 
 
-.description {
+/* .description {
   font-family: orpheuspro, serif;
   font-style: italic;
   font-weight: 200;
-}
+} */
 
-.number-list {
+/* .number-list {
   font-family: orpheuspro, serif;
   font-size: 13px;
   font-weight: 100px;
   padding-right: 14px;
   color: #f393b9;
-}
+} */
 
 .App-header{
   display: flex;
@@ -223,7 +208,7 @@ section {
   align-items: baseline;
 }
 
-.footer {
+/* .footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -238,13 +223,12 @@ section {
   text-decoration: none;
   font-weight: 700;
 
-}
-
+} */
+/* 
 .hovering ul li img{
   visibility: hidden;
   position: fixed;
   top: 15%;
-  /* left: 25%; */
   display: inline-block;
   margin: 0 auto;
   
@@ -255,13 +239,8 @@ section {
   pointer-events: none;
   word-break: break-all;
   
-
-
-  /* height: 100vh; */
   z-index: 100;
-  /* transition: all 0.3s ease; */
-  /* transform: scale(0); */
-  /* width: 20%; */
+
 
   opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -271,8 +250,7 @@ section {
 
 .hovering ul li:hover img{
   visibility: visible;
-  /* transform: scale(1); */
-  /* top: 0; */
+
   margin: 0;
   padding: 0;
   transition: opacity 2s;
@@ -288,10 +266,10 @@ section {
   transition: opacity 0.8s;
   z-index: -8000;
 
-}
-
+} */
+/* 
 .hovering ul li:hover span {
   opacity: 1;
   z-index: 3000;
-}
+} */
 
