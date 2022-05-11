@@ -1,6 +1,0 @@
-@font-face {
-    font-family: "FONT NAME";
-    src: url("[directory_folder]/FILE_NAME.woff2") format("woff2"),
-         url("[directory_folder]/FILE_NAME.woff") format("woff");
-  }
-  
