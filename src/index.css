@@ -1,13 +1,297 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+@import url("https://use.typekit.net/bpd8gfy.css");
+@import url("https://use.typekit.net/bpd8gfy.css");
+
+@font-face {
+  font-family: IgnazioDisplay-Regular;
+  src: local('IgnazioDisplay-Regular'),
+    url('./fonts/IgnazioDisplay-Regular.woff') format('woff'),
+    url('./fonts/IgnazioDisplay-Regular.woff2') format('woff2');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: C4v4-Regular;
+  src: local('C4v4-Regular'),
+    url('./fonts/C4v4-Regular.woff') format('woff'),
+    url('./fonts/C4v4-Regular.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: Sporting_Grotesque-Regular_web;
+  src: local('Sporting_Grotesque-Regular_web'),
+    url('./fonts/Sporting_Grotesque-Regular_web.woff') format('woff'),
+    url('./fonts/Sporting_Grotesque-Regular_web.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  /* font-family: IgnazioDisplay, Helvetica, sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #D5E3B5;
+  background-color: #f7d4ee;
+  background-color: #eecddb;
+  background-color: #EDECE8;
+  color: #00d544;
+  color: #24292E;
+  color: #B98B64;
+  color: #ED82C6;
+  color: #356E43;
+  color: #f393b9;
+  margin: 0;
+  padding: 0;
+  
+  /* height: 100vh; */
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  /* font-family: neue-haas-unica,sans-serif; */
+    /* border-right: solid 1px #24292E; */
+}
+
+p {
+  color: #24292E;
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 1.5em;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  position: relative;
+}
+
+/* 
+li {
+  border-top: 1px solid #464b5086;
+
+} */
+
+.circle {
+  background-color: #505d33;
+  height: 0;
+  width: 2%;
+  padding-bottom: 2%;
+  border-radius: 50%;
+  margin: 0 1%;
+}
+
+h1 {
+  font-family: 'C4v4-Regular';
+  font-weight: 100;
+  font-family: orpheuspro, serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  /* margin: 0 0 0 3em; */
+  /* text-transform: uppercase; */
+}
+
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* line-height: 1.2; */
+  transition: color 0.5s;
+  font-size: 2.7em;
+  text-decoration: none;
+  justify-content: center;
+  margin: 0.5em;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #24292E;
+}
+
+.hover-item-show {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 100;
+  /* top: 0; */
+  right: 0;
+}
+
+.hover-item:hover,
+.hover-item-show {
+  opacity: 1;
+  visibility: inherit;
+  transition: opacity 0.5s;
+}
+
+/* img {
+  width: 100vw;
+} */
+/* 
+.stickyImSgSection {
+  width: 100%;
+
+}
+
+.stickyImSgSection img {
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* 
+export const TextDetail=styled.div ` position: sticky;
+position: -webkit-sticky;
+top: var(--offset);
+padding: 0 0 4em 4em;
+height: 100vh;
+top: 10rem;
+width: 100%; */
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 1% 3%;
+  flex-direction: column;
+  z-index: 0;
+}
+
+
+.description {
+  font-family: orpheuspro, serif;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.number-list {
+  font-family: orpheuspro, serif;
+  font-size: 13px;
+  font-weight: 100px;
+  padding-right: 14px;
+  color: #f393b9;
+}
+
+.App-header{
+  display: flex;
+  padding: 2em 3em 0 3em;
+  flex-direction: row;
+}
+
+.header-about {
+  font-weight: 700;  
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.hover-about {
+  visibility: hidden;
+  /* width: 100vw; */
+  height: 100vh;
+  z-index: 2000;
+  background-color: #f393b9 ;
+  color: #fff;
+  font-size: 2em;
+  padding: 3em;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.header:hover .hover-about {
+  visibility:visible;
+}
+
+.hover-about .serif{
+  font-family: orpheuspro, serif;
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+.hover-about p {
+  color: #fff;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3em;
+}
+
+.footer ul a {
+  margin: 10px;
+  color: #24292E;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+
+.hovering ul li img{
+  visibility: hidden;
+  position: fixed;
+  top: 15%;
+  /* left: 25%; */
+  display: inline-block;
+  margin: 0 auto;
+  
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  max-width: 420px;
+  pointer-events: none;
+  word-break: break-all;
+  
+
+
+  /* height: 100vh; */
+  z-index: 100;
+  /* transition: all 0.3s ease; */
+  /* transform: scale(0); */
+  /* width: 20%; */
+
+  opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.hovering ul li:hover img{
+  visibility: visible;
+  /* transform: scale(1); */
+  /* top: 0; */
+  margin: 0;
+  padding: 0;
+  transition: opacity 2s;
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+  z-index: 100;
+}
+
+.hovering  ul:hover li span {
+  opacity: 0.2;
+  transition: opacity 0.8s;
+  z-index: -8000;
+
+}
+
+.hovering ul li:hover span {
+  opacity: 1;
+  z-index: 3000;
+}
+
