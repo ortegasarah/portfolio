@@ -5,9 +5,9 @@ const Footer = () => {
     return (
         <Container>
             <li className='footer'>
-                <ul className='footer-text'>
+                {/* <ul className='footer-text'>
                     <p><a href='https://twitter.com/sarahortga' target='_blank' rel='noreferrer'> WORLDWIDE </a></p>
-                </ul>
+                </ul> */}
                 <ul className='footer-text'>
                     {/* <p>font by the amazing @boem_c4 and collletttivo.it</p> */}
                     <a href='https://github.com/ortegasarah/' target='_blank' rel='noreferrer'> GitHub </a></ul>

@@ -17,7 +17,7 @@ const Work= () => {
 
                             <a href='https://caneledujp.netlify.app/' target='_blank' rel="noreferrer">
                                 <span> Canelé du Japon </span>
-                                <span className='description'>Full-Stack Project</span>
+                                <span className='description'>Full-Stack MERN</span>
                                 <img src={Img1} alt='' width={400} />
                             </a>
 
@@ -30,7 +30,7 @@ const Work= () => {
 
                             <a href='https://animecafe.herokuapp.com/' target='_blank' rel="noreferrer">
                                 <span>Animecafe </span>
-                                <span className='description'>Handlebars</span>
+                                <span className='description'>Full-Stack with Handlebars</span>
                                 <img src={Img2} alt='' width={400} />
                             </a>
                         </H2>
@@ -41,7 +41,7 @@ const Work= () => {
                             <NumberList>03 </NumberList>
                             <a href='https://ortegasarah.github.io/GameLostFluF/' target='_blank' rel="noreferrer">
                                 <span> Lost FluF </span>
-                                <span className='description'> Game using Canvas</span>
+                                <span className='description'> Game with Canvas Graphics </span>
                                 <img src={Img3} alt='' width={800} />
                             </a>
                         </H2>
@@ -51,9 +51,9 @@ const Work= () => {
                         <H2>
                             <NumberList>04 </NumberList>
 
-                            <a href='https://ortegasarah.github.io/GameLostFluF/' target='_blank' rel="noreferrer">
+                            <a href='' target='_blank' rel="noreferrer">
                                 <span>187whales </span>
-                                <span className='description'>Solidity NFT</span>
+                                <span className='description'>Solidity - coming soon</span>
                                 <img src={Img5} alt='' width={400} />
                             </a>
                         </H2>

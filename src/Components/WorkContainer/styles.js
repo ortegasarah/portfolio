@@ -53,6 +53,11 @@ export const Container = styled.section `
     opacity: 1;
     z-index: 3000;
 }
+
+    @media (max-width: 900px) {
+        padding: 1%;
+        } 
+
 `
 
 export const H2 = styled.h2 `
@@ -75,6 +80,10 @@ export const H2 = styled.h2 `
     font-style: italic;
     font-weight: 200;
 }
+        @media (max-width: 900px) {
+            justify-content: flex-start;
+            font-size: 1.5em;
+        } 
 `
 
 export const NumberList = styled.span `

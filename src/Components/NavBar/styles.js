@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.header `
     display: flex;
-    padding: 2em 3em 0 3em;
     flex-direction: row;
 
     .header-about {
@@ -10,6 +9,10 @@ export const Container = styled.header `
         margin: 0;
         cursor: pointer;
   }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    }
 `
 
 export const About = styled.div `
@@ -27,11 +30,15 @@ export const About = styled.div `
   
   export const H1 = styled.h1 `
     color: #f393b9;
-    font-weight: 100;
     font-family: orpheuspro, serif;
     font-weight: 600;
     text-align: center;
     font-size: 3em;
     letter-spacing: 2px;
     margin: 0 auto;
+
+    @media (max-width: 800px) {
+      font-size: 2em;
+      letter-spacing:auto;
+    }
   `

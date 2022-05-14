@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from "styled-components";
+import {createGlobalStyle} from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -8,7 +8,6 @@ export const GlobalStyle = createGlobalStyle`
 
 
     body {
-        margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #D5E3B5;
@@ -22,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
   color: #356E43; */
   color: #24292E;
   margin: 0;
-  padding: 0;
+  padding: 3em;
   
   font-family: 'Zen Kaku Gothic New', sans-serif;
   font-weight: 100;

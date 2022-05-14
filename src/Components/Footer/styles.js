@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-    padding-right: 3em;
-
+export const Container = styled.footer`
+    padding-top: 3em;
+    
     li {
     list-style-type: none;
     position: relative;
@@ -10,14 +10,23 @@ export const Container = styled.section`
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    margin: 0;
     }
 
     ul a {
-        margin: 10px;
+        margin: 0 10px;
         color: #24292E;
         list-style-type: none;
         text-decoration: none;
         font-weight: 700;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
     }
 `
 
