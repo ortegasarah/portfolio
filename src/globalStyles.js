@@ -37,4 +37,10 @@ ul li {
   list-style-type: none;
   position: relative;
 }
+
+@media (max-width: 900px) {
+  body {
+    padding: 2em;
+        } 
+    }
 `

@@ -11,7 +11,7 @@ const NavBar = () => {
                 <div className="header">
                     <p className="header-about" >ABOUT</p>
                 </div>
-                <H1>Sarah Ortega - front-end developper</H1>
+                <H1>Sarah Ortega — front-end developper</H1>
 
 
 

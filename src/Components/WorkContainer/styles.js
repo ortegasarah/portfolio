@@ -55,7 +55,7 @@ export const Container = styled.section `
 }
 
     @media (max-width: 900px) {
-        padding: 1%;
+        padding: 0;
         } 
 
 `
@@ -82,7 +82,15 @@ export const H2 = styled.h2 `
 }
         @media (max-width: 900px) {
             justify-content: flex-start;
-            font-size: 1.5em;
+            font-size: 4vw;
+            display: block;
+           
+        } 
+        @media (max-width: 544px) {
+            font-size: 6vw;
+            .description {
+                display: block;
+            }
         } 
 `
 

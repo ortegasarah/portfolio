@@ -8,6 +8,7 @@ export const Container = styled.header `
         font-weight: 700;  
         margin: 0;
         cursor: pointer;
+        margin-bottom: 15px;
   }
 
   @media (max-width: 800px) {
@@ -37,8 +38,13 @@ export const About = styled.div `
     letter-spacing: 2px;
     margin: 0 auto;
 
-    @media (max-width: 800px) {
-      font-size: 2em;
+    @media (max-width: 900px) {
+      font-size: 4vw;
       letter-spacing:auto;
+      text-align: left;
+    }
+    @media (max-width: 544px) {
+            font-size: 6vw;
     }
   `
+
