@@ -63,12 +63,13 @@ export const Container = styled.section `
 export const H2 = styled.h2 `
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     transition: color 0.5s;
     font-size: 2.7em;
     text-decoration: none;
-    justify-content: center;
+    justify-content: left;
     margin: 0.5em;
+    font-weight: 500;
+
 
     a {
     text-decoration: none;
@@ -97,7 +98,7 @@ export const H2 = styled.h2 `
 export const NumberList = styled.span `
     font-family: orpheuspro, serif;
     font-size: 13px;
-    font-weight: 100px;
+    font-weight: 900;
     padding-right: 14px;
     color: #f393b9;
 `
