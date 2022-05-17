@@ -55,7 +55,16 @@ export const Container = styled.section `
 
     @media (max-width: 900px) {
         padding: 0;
-        } 
+    } 
+
+    @media (max-width: 544px) {
+        li:hover  img{
+            visibility: hidden;
+        }
+        ul:hover  li span {
+            opacity: 1;
+        }
+    } 
 
 `
 
