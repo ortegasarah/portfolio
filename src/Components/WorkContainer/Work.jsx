@@ -13,7 +13,7 @@ const Work= () => {
             {/* <NavBar/> */}
             <Container>
             <H2>
-                <span>Hi I'm Sarah Ortega — </span>
+                <span>Hey! I'm Sarah Ortega — </span>
                 <span className='description'> a front-end developer with a design background.
 I like to transform ideas and designs into modern, clean, and readable code. À bientôt!</span>
             </H2>
