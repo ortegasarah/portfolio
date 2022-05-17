@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Container = styled.header `
     display: flex;
     flex-direction: row;
-
+    /* padding: 3em; */
     .header-about {
-        font-weight: 700;  
-        margin: 0;
-        cursor: pointer;
-        margin-bottom: 15px;
-  }
+      font-weight: 700;  
+      margin: 0;
+      cursor: pointer;
+      margin-bottom: 15px;
+    }
 
   @media (max-width: 800px) {
     flex-direction: column;
@@ -28,12 +28,12 @@ export const About = styled.div `
     top: 0;
     left: 0;
 `
-  
-  export const H1 = styled.h1 `
-    color: #f393b9;
+
+export const H1 = styled.h1 `
+    /* color: #f393b9; */
     font-family: orpheuspro, serif;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     font-size: 3em;
     letter-spacing: 2px;
     margin: 0 auto;
@@ -43,8 +43,8 @@ export const About = styled.div `
       letter-spacing:auto;
       text-align: left;
     }
+
     @media (max-width: 544px) {
             font-size: 6vw;
     }
   `
-

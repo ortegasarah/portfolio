@@ -6,10 +6,17 @@ import Img3 from "../../img/fluf.png"
 import Img4 from "../../img/bookclub.png"
 import Img5 from "../../img/187.png"
 
+
 const Work= () => {
     return (
         <div>
+            {/* <NavBar/> */}
             <Container>
+            <H2>
+                <span>Hi I'm Sarah Ortega — </span>
+                <span className='description'> a front-end developer with a design background.
+I like to transform ideas and designs into modern, clean, and readable code. À bientôt!</span>
+            </H2>
                 <ul>
                     <li className="hover-item">
                         <H2>

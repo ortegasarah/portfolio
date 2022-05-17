@@ -6,7 +6,6 @@ export const Container = styled.section `
     padding: 1% 3%;
     flex-direction: column;
     z-index: 0;
-
     ul  li  img {
     visibility: hidden;
     position: fixed;
