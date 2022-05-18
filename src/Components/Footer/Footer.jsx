@@ -18,7 +18,7 @@ const Footer = () => {
                     <p><a href='https://twitter.com/sarahortga' target='_blank' rel='noreferrer'> Twitter </a></p>
                 </ul>
                 <ul className='footer-text'>
-                    <p><a href='https://twitter.com/sarahortga' target='_blank' rel='noreferrer'> Email </a></p>
+                    <p><a href = "mailto: sarah.ortega.fuentes@gmail.com"> Email </a></p>
                 </ul>
             </li>
         </Container>
