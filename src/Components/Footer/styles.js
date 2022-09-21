@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
     padding-top: 3em;
     
-    li {
+    ul {
     list-style-type: none;
     position: relative;
     display: flex;
@@ -13,20 +13,16 @@ export const Container = styled.footer`
     margin: 0;
     }
 
-    ul a {
-        margin: 0 10px;
-        color: #24292E;
-        list-style-type: none;
-        text-decoration: none;
-        font-weight: 700;
-    }
-
     p {
         margin: 0;
     }
 
-    ul {
-        margin: 0;
+    li, li a {
+        color: #24292E;
+        list-style-type: none;
+        text-decoration: none;
+        font-weight: 700;
+        margin: 0 10px;
     }
 `
 

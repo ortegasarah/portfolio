@@ -4,23 +4,23 @@ import { Container } from './styles'
 const Footer = () => {
     return (
         <Container>
-            <li className='footer'>
-                {/* <ul className='footer-text'>
-                    <p><a href='https://twitter.com/sarahortga' target='_blank' rel='noreferrer'> WORLDWIDE </a></p>
-                </ul> */}
-                <ul className='footer-text'>
+            <ul className='footer'>
+                <li className='footer-text'>
+                    <p> Toulouse, Fr + Worldwide </p>
+                </li>
+                <li className='footer-text'>
                     {/* <p>font by the amazing @boem_c4 and collletttivo.it</p> */}
-                    <a href='https://github.com/ortegasarah/' target='_blank' rel='noreferrer'> GitHub </a></ul>
-                <ul className='footer-text'>
+                    <a href='https://github.com/ortegasarah/' target='_blank' rel='noreferrer'> GitHub </a></li>
+                <li className='footer-text'>
                     <p><a href='https://www.linkedin.com/in/ortegasarah/' target='_blank' rel='noreferrer'> LinkedIn </a></p>
-                </ul>
-                <ul className='footer-text'>
+                </li>
+                <li className='footer-text'>
                     <p><a href='https://twitter.com/sarahortga' target='_blank' rel='noreferrer'> Twitter </a></p>
-                </ul>
-                <ul className='footer-text'>
+                </li>
+                <li className='footer-text'>
                     <p><a href = "mailto: sarah.ortega.fuentes@gmail.com"> Email </a></p>
-                </ul>
-            </li>
+                </li>
+            </ul>
         </Container>
     )
 }

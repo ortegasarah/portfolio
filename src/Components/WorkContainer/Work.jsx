@@ -54,7 +54,7 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                         </H2>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <H2>
                             <NumberList>04 </NumberList>
 
@@ -64,11 +64,11 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                                 <img src={Img5} alt='' width={400} />
                             </a>
                         </H2>
-                    </li>
+                    </li> */}
 
                     <li>
                         <H2>
-                            <NumberList>05 </NumberList>
+                            <NumberList>04 </NumberList>
                             <a href='https://abookclub.netlify.app/' target='_blank' rel="noreferrer">
                                 <span>The BookClub </span>
                                 <span className='description'> with React.js, Rest.API</span>
