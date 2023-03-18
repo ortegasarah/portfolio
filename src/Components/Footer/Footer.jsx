@@ -6,7 +6,7 @@ const Footer = () => {
         <Container>
             <ul className='footer'>
                 <li className='footer-text'>
-                    <p> Toulouse, Fr + Worldwide </p>
+                    <p>based in NYC</p>
                 </li>
                 <li className='footer-text'>
                     {/* <p>font by the amazing @boem_c4 and collletttivo.it</p> */}
@@ -15,7 +15,7 @@ const Footer = () => {
                     <p><a href='https://www.linkedin.com/in/ortegasarah/' target='_blank' rel='noreferrer'> LinkedIn </a></p>
                 </li>
                 <li className='footer-text'>
-                    <p><a href='https://twitter.com/sarahortga' target='_blank' rel='noreferrer'> Twitter </a></p>
+                    <p><a href='https://twitter.com/0xchocolatine' target='_blank' rel='noreferrer'> Twitter </a></p>
                 </li>
                 <li className='footer-text'>
                     <p><a href = "mailto: sarah.ortega.fuentes@gmail.com"> Email </a></p>
