@@ -6,7 +6,7 @@ const Footer = () => {
         <Container>
             <ul className='footer'>
                 <li className='footer-text'>
-                    <p>based in NYC</p>
+                    <p>Brooklyn, NY</p>
                 </li>
                 <li className='footer-text'>
                     {/* <p>font by the amazing @boem_c4 and collletttivo.it</p> */}

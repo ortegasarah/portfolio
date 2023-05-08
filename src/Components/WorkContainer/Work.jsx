@@ -35,7 +35,7 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                         <H2>
                             <NumberList>02 </NumberList>
 
-                            <a href='https://animecafe.herokuapp.com/' target='_blank' rel="noreferrer">
+                            <a href='https://github.com/ortegasarah/animecafe' target='_blank' rel="noreferrer">
                                 <span>Animecafe </span>
                                 <span className='description'>Full-Stack with Handlebars</span>
                                 <img src={Img2} alt='' width={400} />
