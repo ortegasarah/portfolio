@@ -4,7 +4,8 @@ import Img1 from "../../img/canele-01.png"
 import Img2 from "../../img/animecafe-02.png"
 import Img3 from "../../img/fluf.png"
 import Img4 from "../../img/bookclub.png"
-import Img5 from "../../img/187.png"
+import Img5 from "../../img/thezigzagproject.com_.png"
+import Img6 from "../../img/bebezuzu.myshopify.com_.png"
 
 
 const Work= () => {
@@ -30,10 +31,22 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
 
                         </H2>
                     </li>
+
+                    <li>
+                        <H2>
+                            <NumberList>02</NumberList>
+                            <a href='https://bebezuzu.myshopify.com/' target='_blank' rel="noreferrer">
+                                <span>Bebe Zuzu </span>
+                                <span className='description'> Shopify custom theme</span>
+                                <img src={Img6} alt='' width={800} />
+                            </a>
+                        </H2>
+                    </li>
+
                     <li>
 
                         <H2>
-                            <NumberList>02 </NumberList>
+                            <NumberList>03</NumberList>
 
                             <a href='https://github.com/ortegasarah/animecafe' target='_blank' rel="noreferrer">
                                 <span>Animecafe </span>
@@ -45,7 +58,7 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                     </li>
                     <li>
                         <H2>
-                            <NumberList>03 </NumberList>
+                            <NumberList>04</NumberList>
                             <a href='https://ortegasarah.github.io/GameLostFluF/' target='_blank' rel="noreferrer">
                                 <span> Lost FluF </span>
                                 <span className='description'> Game with Canvas Graphics </span>
@@ -54,21 +67,9 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                         </H2>
                     </li>
 
-                    {/* <li>
-                        <H2>
-                            <NumberList>04 </NumberList>
-
-                            <a href='' target='_blank' rel="noreferrer">
-                                <span>187whales </span>
-                                <span className='description'>Solidity - coming soon</span>
-                                <img src={Img5} alt='' width={400} />
-                            </a>
-                        </H2>
-                    </li> */}
-
                     <li>
                         <H2>
-                            <NumberList>04 </NumberList>
+                            <NumberList>05 </NumberList>
                             <a href='https://abookclub.netlify.app/' target='_blank' rel="noreferrer">
                                 <span>The BookClub </span>
                                 <span className='description'> with React.js, Rest.API</span>
@@ -76,6 +77,20 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                             </a>
                         </H2>
                     </li>
+
+                    <li>
+                        <H2>
+                            <NumberList>06</NumberList>
+
+                            <a href='https://thezigzagproject.com/' target='_blank' rel="noreferrer">
+                                <span>The Zigzag Project</span>
+                                <span className='description'> Cargo website + design</span>
+                                <img src={Img5} alt='' width={400} />
+                            </a>
+                        </H2>
+                    </li>
+
+                   
 
                 </ul>
             </Container>
