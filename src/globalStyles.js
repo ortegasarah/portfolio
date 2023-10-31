@@ -20,11 +20,11 @@ body {
   color: #ED82C6;
   color: #356E43; */
   color: #24292E;
-        margin: 0;
-        padding: 3em;
-        font-family: 'Zen Kaku Gothic New', sans-serif;
-        font-weight: 100;
-        text-decoration: none;
+  margin: 0;
+  padding: 3em;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
   }
 
   .background-grey {

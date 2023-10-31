@@ -37,7 +37,7 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                             <NumberList>02</NumberList>
                             <a href='https://bebezuzu.myshopify.com/' target='_blank' rel="noreferrer">
                                 <span>Bebe Zuzu </span>
-                                <span className='description'> Shopify custom theme</span>
+                                <span className='description'> Shopify custom theme, mdp: zuzu</span>
                                 <img src={Img6} alt='' width={800} />
                             </a>
                         </H2>
