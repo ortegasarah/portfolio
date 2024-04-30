@@ -6,6 +6,7 @@ import Img3 from "../../img/fluf.png"
 import Img4 from "../../img/bookclub.png"
 import Img5 from "../../img/thezigzagproject.com_.png"
 import Img6 from "../../img/bebezuzu.myshopify.com_.png"
+import Img7 from "../../img/beavermemecoin.png"
 
 
 const Work= () => {
@@ -37,7 +38,7 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                             <NumberList>02</NumberList>
                             <a href='https://bebezuzu.myshopify.com/' target='_blank' rel="noreferrer">
                                 <span>Bebe Zuzu </span>
-                                <span className='description'> Shopify custom theme, mdp: zuzu</span>
+                                <span className='description'> Shopify custom theme, pw: zuzu</span>
                                 <img src={Img6} alt='' width={800} />
                             </a>
                         </H2>
@@ -59,6 +60,17 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                     <li>
                         <H2>
                             <NumberList>04</NumberList>
+                            <a href='https://beavermemecoin.com/' target='_blank' rel="noreferrer">
+                                <span> $BEAVER Memecoin </span>
+                                <span className='description'>HTML/CSS</span>
+                                <img src={Img7} alt='' width={800} />
+                            </a>
+                        </H2>
+                    </li>
+
+                    <li>
+                        <H2>
+                            <NumberList>05</NumberList>
                             <a href='https://ortegasarah.github.io/GameLostFluF/' target='_blank' rel="noreferrer">
                                 <span> Lost FluF </span>
                                 <span className='description'> Game with Canvas Graphics </span>
@@ -67,20 +79,21 @@ I like to transform ideas and designs into modern, clean, and readable code. À 
                         </H2>
                     </li>
 
+
                     <li>
                         <H2>
-                            <NumberList>05 </NumberList>
+                            <NumberList>06</NumberList>
                             <a href='https://abookclub.netlify.app/' target='_blank' rel="noreferrer">
                                 <span>The BookClub </span>
-                                <span className='description'> with React.js, Rest.API</span>
-                                <img src={Img4} alt='' width={800} />
+                                <span className='description'> React.js, Rest.API</span>
+                                <img src={Img4} alt='' width={400} />
                             </a>
                         </H2>
                     </li>
 
                     <li>
                         <H2>
-                            <NumberList>06</NumberList>
+                            <NumberList>07</NumberList>
 
                             <a href='https://thezigzagproject.com/' target='_blank' rel="noreferrer">
                                 <span>The Zigzag Project</span>

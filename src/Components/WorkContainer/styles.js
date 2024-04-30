@@ -16,7 +16,7 @@ export const Container = styled.section `
     left: 50%;
     top: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
-    max-width: 420px;
+    max-width: 800px;
     pointer-events: none;
     word-break: break-all;
     
